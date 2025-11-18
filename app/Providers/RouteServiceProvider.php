@@ -70,6 +70,9 @@ class RouteServiceProvider extends ServiceProvider
             Route::middleware(['web','system.maintenance'])
             ->group(base_path('routes/payment-gateway/qr_pay/v1/checkout.php'));
 
+            // Enterprise health check routes
+            Route::group(base_path('routes/health.php'));
+
             $this->mapInstallerRoute();
         });
     }
