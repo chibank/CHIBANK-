@@ -2,3 +2,27 @@
 
 #Ignore vscode AI rules
 .github\instructions\codacy.instructions.md
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build artifacts
+/public/build/
+/public/hot
+/public/storage
+
+# Environment files
+.env.backup
+.env.production
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
